@@ -1,0 +1,2 @@
+optimizer;loss;metric
+adam;categorical_crossentropy;accuracy

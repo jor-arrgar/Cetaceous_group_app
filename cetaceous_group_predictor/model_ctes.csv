@@ -1,0 +1,2 @@
+Image layers;1st conv layer filters;1st conv layer strides;2nd conv layer filters;2nd conv layer strides;3rd conv layer filters;3rd conv layer strides;Conv layers activation function;Conv dropout;Exit layer activation
+3;32;3 x 3;64;3 x 3;128;3 x 3;relu;0.25;Softmax

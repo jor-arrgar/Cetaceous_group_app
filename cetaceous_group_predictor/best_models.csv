@@ -1,0 +1,4 @@
+Image size (pixels);1st pooling layer (size);2nd pooling layer (size);3rd pooling layer(size);1st dense layer neurons;Epochs;Batch size;Train loss;Train accuracy;Validation accuracy;Test loss;Test accuracy
+32x32;2 x 2;2 x 2;4 x 4;400;30;128;0.048675;0.983000;0.871667;0.539551;0.885556
+32x32;2 x 2;2 x 2;4 x 4;500;30;128;0.058405;0.978333;0.865000;0.481576;0.885556
+100 x 100;3 x 3;3 x 3;3 x 3;400;50;128;0.009912;0.996667;0.885;0.583434;0.912222
