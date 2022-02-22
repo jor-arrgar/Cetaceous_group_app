@@ -8,7 +8,7 @@ from PIL import Image
 
 # Model load
 model = load_model('cetaceous_group_predictor/model.h5')
-history_df = pd.read_csv('./history_df.csv' , sep= ';')
+history_df = pd.read_csv('cetaceous_group_predictor/history_df.csv' , sep= ';')
 # Parameters tables generation
 best_models = pd.read_csv('cetaceous_group_predictor/best_models.csv' , sep= ';')
 model_cte = pd.read_csv('cetaceous_group_predictor/model_ctes.csv' , sep= ';')
