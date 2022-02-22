@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-import pickle
 import streamlit as st
 from tensorboard import summary
 from tensorflow.keras.models import load_model
@@ -9,8 +8,7 @@ from PIL import Image
 
 # Model load
 model = load_model('cetaceous_group_predictor/model.h5')
-with open('cetaceous_group_predictor/pickle_trained_model_info' , 'rb') as model_file:
-    history_df = pickle.load(model_file)
+history_df = pd.read_csv('./history_df.csv' , sep= ';')
 # Parameters tables generation
 best_models = pd.read_csv('cetaceous_group_predictor/best_models.csv' , sep= ';')
 model_cte = pd.read_csv('cetaceous_group_predictor/model_ctes.csv' , sep= ';')
