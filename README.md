@@ -7,4 +7,4 @@ If you want to repeat the experiment, you will need to downolad the image set fr
 
 Author: Jorge Arranz, as part of the Data Science Bootcamp in The Bridge Academy (Madrid). Date: 18/02/2022
 
-App url: https://share.streamlit.io/jor-arrgar/whales_ml_0/main/cetaceous_group_predictor/streamlit_app.py
+App url: https://share.streamlit.io/jor-arrgar/cetaceous_group_app/main/cetaceous_group_predictor/streamlit_app.py
