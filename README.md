@@ -1,5 +1,5 @@
-# whales_ml_0
-Whales, dolphins and belugas indentification through .jpg of the animal taking air on the sea surface using a Streamlit app.
+# Cetaceous_group_app
+Whales, dolphins and belugas identification through .jpg of the animal taking air on the sea surface using a Streamlit app.
 
 Photographs have been taking from Kaggle (Happywhale), but only 4500 of 46000 have been used to train the model. The experiment has limitations related to time and computational capabilities, those are the reasons why only 200 different convolutional neural net have been proved. The model is displayed on a Streamlit interface with the possibility of upload your images (.jpg) and download a .csv with the results, showing the probability of each gruop per image.
 
